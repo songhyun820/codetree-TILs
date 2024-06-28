@@ -5,10 +5,10 @@ int main() {
 
     cin >> a >> b;
     for(i = a; i <= b; i++){
-        if(i % 2 == 0){
-            sum += i;
-        } 
-        // i % 2 == 0 ? sum+=i : sum = sum;
+        // if(i % 2 == 0){
+        //     sum += i;
+        // } 
+        i % 2 == 0 ? sum+=i : sum = sum;
     }
     cout << sum;
     return 0;
